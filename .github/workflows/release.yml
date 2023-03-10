@@ -24,7 +24,7 @@ jobs:
           echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
       - name: Relative Zip
         run: |
-          ${GITHUB_WORKSPACE}/.github/relativeZip.sh "${GITHUB_WORKSPACE}/myExtension.roboFontExt" "${GITHUB_WORKSPACE}/myExtension-${RELEASE_VERSION}.roboFontExt.zip"
+          ${GITHUB_WORKSPACE}/.github/relativeZip.sh "${GITHUB_WORKSPACE}/Version-Spy.roboFontExt" "${GITHUB_WORKSPACE}/Version-Spy-${RELEASE_VERSION}.roboFontExt.zip"
       - name: Release
         uses: softprops/action-gh-release@v1
         with:

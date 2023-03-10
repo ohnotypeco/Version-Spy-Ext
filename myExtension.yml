@@ -1,8 +1,0 @@
-extensionName: myExtension
-repository: https://github.com/ohnotypeco/myExtension
-extensionPath: myExtension.roboFontExt
-description: A Demo Extension
-developer: OH no Type Co.
-developerURL: https://github.com/ohnotypeco
-tags: [ debugging workspace ]
-icon: https://raw.githubusercontent.com/ohnotypeco/myExtension/main/myExtension.roboFontExt/resources/icon.png

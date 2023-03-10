@@ -1,0 +1,8 @@
+extensionName: Version Spy
+repository: https://github.com/ohnotypeco/Version-Spy-Ext
+extensionPath: Version-Spy.roboFontExt
+description: Display RF version information in the App menu
+developer: OH no Type Co.
+developerURL: https://github.com/ohnotypeco
+tags: [ debugging workspace ]
+icon: https://raw.githubusercontent.com/ohnotypeco/Version-Spy-Ext/main/Version-Spy.roboFontExt/resources/icon.png
